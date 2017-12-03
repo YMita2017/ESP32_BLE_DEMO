@@ -6,7 +6,7 @@ ESP32側は通常のArduino環境にESP32を追加して、更に以下のライ
 
 ### １．[ESP32_BLE_Arduinoライブラリ](https://github.com/nkolban/ESP32_BLE_Arduino)
 
-ESP32に標準で入っているSimoleBLEは中身がありません。Bluetoothのスキャナで見るの、ESP32が見えますが、実体は無し。このライブラリを入れて初めて実体ができます。なお、本ライブラリのexamplesもしっかりしています。
+ESP32に標準で入っているSimoleBLEは中身がありません。Bluetoothのスキャナで見るとESP32が見えますが、実体は無し。このライブラリを入れて初めて実体ができます。なお、本ライブラリのexamplesもしっかりしています。
 
 使い方については、英語ですが、[こちらのYouTube](https://www.youtube.com/watch?v=oCMOYS71NIU)で作者が解説していて、しっかり聞けば理解が進みます。（英語は辛いけど．．．）YouTubeの字幕で英語->日本語と設定して、しっかり見ましょう。
 
