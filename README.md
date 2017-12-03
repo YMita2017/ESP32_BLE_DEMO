@@ -63,5 +63,3 @@ UUIDは正規の取得方法ではなく、[ESP32_BLE_Arduinoライブラリ](ht
 １３．「Enable data reception」をクリックすると、シリアルモニタに表示されている数字が下に表示される。
 
 １４．「Your message here」のボックスに文字を入れて、「Send Message」を押すと、文字がシリアルモニタに表示される。
-
-、しておき、これを起動して、
