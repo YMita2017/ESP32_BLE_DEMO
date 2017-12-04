@@ -30,7 +30,7 @@ Androidのアプリケーション開発に使います。Web上で自分のプ�
 
 [Androidのプログラム](https://github.com/LimiFrog/LimiFrog-SW/tree/master/firmwares_and_utilities/MIT_AppInventor2)はこちらを参照、と言うか、ほとんどそのまま使っています。当初はAI2とESP32、BLEで検索していてたどり着いたのですが、Arduinoのプログラムが見つからず、[Androidのプログラム](https://github.com/LimiFrog/LimiFrog-SW/tree/master/firmwares_and_utilities/MIT_AppInventor2)を[ESP32_BLE_Arduinoライブラリ](https://github.com/nkolban/ESP32_BLE_Arduino)と接続できるように書き換えています。また、スマホ側の受信文字が数字ではなく、文字として、次々につなぎ合わせる様になっていたので、一回ごとの数字表示に変更しています。
 
-Arduinoがサーバ、Android(スマホ)がクライアントとして動作しています。
+Arduinoがペリフェラル、Android(スマホ)がセントラルとして動作しています。
 
 UUIDは正規の取得方法ではなく、[ESP32_BLE_Arduinoライブラリ](https://github.com/nkolban/ESP32_BLE_Arduino)にあった値をそのまま使用しています。
 
